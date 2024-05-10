@@ -3,6 +3,7 @@ import '../CSS/Content.css'
 import Image from './Image'
 import Profile from './Profile'
 import Project from './Project'
+import Activities from './Activities'
 
 const Content = () => {
   return (
@@ -18,6 +19,7 @@ const Content = () => {
             </div>
             <Profile/>
             <Project/>
+            <Activities/>
         </div>
       </div>
     </div>

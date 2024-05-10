@@ -12,10 +12,11 @@
 }
 .project-one {
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .project-two {
     display: flex;
+    margin-bottom: 25px;
 }
 .project-time {
     width: 60px;

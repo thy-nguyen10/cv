@@ -1,0 +1,21 @@
+.activities {
+    margin: 15px 15px 30px;
+}
+.activities-title {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.activities-title h1 {
+    font-size: 25px;
+}
+.activite-times h1 {
+    font-size: 18px;
+}
+.activite-times h4, p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.activite-times {
+    margin: 10px 0 20px;
+}
