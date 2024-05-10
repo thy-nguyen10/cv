@@ -1,0 +1,16 @@
+.profile {
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.profile-title {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.profile-title h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.profile-text {
+    font-size: 15px;
+}

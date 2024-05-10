@@ -1,0 +1,32 @@
+.content-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-content {
+    margin-top: 20px;
+    width: 60%;
+    height: 200vh;
+    display: flex;
+}
+.top {
+    height: 200px;
+    background-color: rgb(207, 200, 191);
+}
+.top h1 {
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+.left-content {
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+.right-content {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+}

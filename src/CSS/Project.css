@@ -1,0 +1,62 @@
+.project {
+    margin: 15px;
+}
+.project-title {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.project-title h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.project-one {
+    display: flex;
+    margin-bottom: 25px;
+}
+.project-two {
+    display: flex;
+}
+.project-time {
+    width: 60px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.project-one hr {
+    height: 130px;
+    width: 10px;
+    border: none;
+    background-color: rgb(250, 167, 58);
+    margin: 0px 20px;
+}
+.project-two hr {
+    height: 130px;
+    width: 10px;
+    border: none;
+    background-color: rgb(250, 167, 58);
+    margin: 0px 20px;
+}
+.project-description h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+.project-description .text {
+    font-size: 18px;
+}
+.description {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.description p {
+    font-size: 15px;
+}
+.des-icon {
+    font-size: 5px;
+    padding-top: -5px;
+}
