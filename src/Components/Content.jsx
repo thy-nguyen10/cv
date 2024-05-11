@@ -4,6 +4,10 @@ import Image from './Image'
 import Profile from './Profile'
 import Project from './Project'
 import Activities from './Activities'
+import Info from './Info'
+import Education from './Education'
+import Skills from './Skills'
+import Certifications from './Certifications'
 
 const Content = () => {
   return (
@@ -12,6 +16,12 @@ const Content = () => {
         <div className="left-content">
             <div className="top"></div>
             <Image/>
+            <Info/>
+            <Education/>
+            <Skills/>
+            <Certifications/>
+            <div className="left-content-border">
+            </div>
         </div>
         <div className="right-content">
             <div className="top">

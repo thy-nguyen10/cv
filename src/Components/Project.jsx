@@ -47,7 +47,7 @@ const Project = () => {
                     </div>
                     <div className="description">
                         <FontAwesomeIcon icon={faCircle} className='des-icon'/>
-                        <p>Technology: HTML, CSS, JavaScript,ReactJs, Bootstrap</p>
+                        <p>Technology: HTML, CSS, JavaScript, ReactJs, Bootstrap</p>
                     </div>
                 </div>
             </div>
