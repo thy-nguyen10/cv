@@ -1,5 +1,5 @@
 import { faCalendar, faEnvelopeOpen, faHeart, faMapLocation, faPhone } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import '../CSS/Info.css'
@@ -28,7 +28,7 @@ const Info = () => {
             </div>
             <div className="info-item">
             <div className="info-coloritem">
-                    <FontAwesomeIcon icon={faCalendar}/>
+                    <FontAwesomeIcon icon={faGithub}/>
                 </div>
                 <p>github.com/thy-nguyen10</p>
             </div>
