@@ -40,4 +40,5 @@
     top: 65px;
     left: 27px;
     width: 85%;
+    pointer-events: none;
 }
