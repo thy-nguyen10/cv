@@ -23,6 +23,10 @@ const Certifications = () => {
                 <FontAwesomeIcon icon={faCircle} className='cer-list-icon'/>
                 <p>Duolingo (300 days)</p>
             </div>
+            <div className="cer-list">
+                <FontAwesomeIcon icon={faCircle} className='cer-list-icon'/>
+                <p>Currently pursuing IELTS certification.</p>
+            </div>
         </div>
     </div>
   )

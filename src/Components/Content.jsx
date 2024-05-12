@@ -10,6 +10,7 @@ import Skills from './Skills'
 import Certifications from './Certifications'
 import ProfileImage from './ProfileImage'
 import Mobile from './Mobile'
+import SoftSkills from './SoftSkills'
 
 
 const Content = () => {
@@ -37,8 +38,8 @@ const Content = () => {
               <div className="mobile-content">
                 <Mobile/>
                 <Info/>
-                <Education/>
                 <Skills/>
+                <Education/>
                 <Certifications/>
                 <Project />
                 <Activities />
@@ -51,8 +52,8 @@ const Content = () => {
               {/* <div className="top"></div> */}
               <ProfileImage/>
               <Info />
-              <Education />
               <Skills />
+              <Education />
               <Certifications />
               <div className="left-content-border">
               </div>
@@ -69,12 +70,13 @@ const Content = () => {
           </div>
         ) : (
           <>
+            <div className="top-content">
+            <div className="top-top-content">
             <div className="left-content">
             <div className="top"></div>
               <Image />
               <Info />
               <Education />
-              <Skills />
               <Certifications />
               <div className="left-content-border"></div>
             </div>
@@ -83,9 +85,14 @@ const Content = () => {
                 <h1>Nguyen thi tho thy</h1>
               </div>
               <Profile />
+              <Skills/>
+              <SoftSkills/>
+            </div>
+            </div>
+            <div className="bottom-content">
               <Project />
               <Activities />
-              {/* <ProfileImage /> */}
+            </div>
             </div>
           </>
         )}

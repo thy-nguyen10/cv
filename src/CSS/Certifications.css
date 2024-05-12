@@ -1,5 +1,5 @@
 .certifications {
-    margin: 50px;
+    margin: 50px 50px 30px;
 }
 .certifications-title {
     position: relative;
@@ -19,7 +19,8 @@
     text-transform: uppercase;
 }
 .certifications-text {
-    padding-top: 55px;
+    padding-top: 42px;
+    margin: 5px 15px 10px;
 }
 .certifications-text p {
     font-size: 15px;

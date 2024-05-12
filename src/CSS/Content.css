@@ -11,7 +11,6 @@
     margin-bottom: 20px;
     width: 60%;
     height: auto;
-    display: flex;
 }
 .top {
     height: 200px;
@@ -42,7 +41,16 @@
     width: 85%;
     pointer-events: none;
 }
-
+.top-top-content {
+  display: flex;
+}
+.bottom-content {
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+}
+.top-content {
+  background-color: rgb(255, 255, 255);
+}
 /* CSS Responsive */
 @media (max-width: 768px) {
     .content-container {

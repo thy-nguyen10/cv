@@ -1,43 +1,26 @@
 .skills {
-    margin: 50px;
+    margin: 15px;
+    margin-bottom: 30px;
+    padding-top: 20px;
 }
 .skills-title {
-    position: relative;
-}
-.skills-title input {
-    background-color: rgb(207, 200, 191);
-    width: 85%;
-    float: right;
-    height: 36px;
-    border: none;
-    margin-bottom: 15px;
-    pointer-events: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .skills-title h1 {
-    position: absolute;
     font-size: 25px;
     text-transform: uppercase;
 }
-.skills-main {
+.skills-technical {
+    margin: 5px 15px 10px;
+}
+.skills-list {
     display: flex;
-    align-items: center;
-    padding-top: 55px;
-    gap: 40px;
-    text-transform: uppercase;
-    font-size: 15px;
+    align-items: first baseline;
+    gap: 5px;
+    margin-bottom: 10px;
 }
-.skills-main p {
-    margin: 10px;
-}
-
-@media (max-width: 768px) {
-    .skills-title input {
-        background-color: rgb(207, 200, 191);
-        width: 93%;
-        float: right;
-        height: 36px;
-        border: none;
-        margin-bottom: 15px;
-        pointer-events: none;
-    }
+.skills-list p {
+    font-size: 18px;
 }

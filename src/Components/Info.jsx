@@ -22,6 +22,12 @@ const Info = () => {
             </div>
             <div className="info-item">
             <div className="info-coloritem">
+                    <FontAwesomeIcon icon={faMapLocation}/>
+                </div>
+                <p>Tan Binh, Ho Chi Minh</p>
+            </div>
+            <div className="info-item">
+            <div className="info-coloritem">
                     <FontAwesomeIcon icon={faEnvelopeOpen}/>
                 </div>
                 <p>thyntt2003@gmail.com</p>
@@ -34,12 +40,6 @@ const Info = () => {
             </div>
             <div className="info-item">
             <div className="info-coloritem">
-                    <FontAwesomeIcon icon={faMapLocation}/>
-                </div>
-                <p>Tan Binh, Ho Chi Minh</p>
-            </div>
-            <div className="info-item">
-            <div className="info-coloritem">
                     <FontAwesomeIcon icon={faLinkedin}/>
                 </div>
                 <p>linkedin.com/in/thy-nguyen10</p>
@@ -48,7 +48,7 @@ const Info = () => {
             <div className="info-coloritem">
                     <FontAwesomeIcon icon={faHeart}/>
                 </div>
-                <p>cv-4v9.pages.dev</p>
+                <p>thothy-cv.pages.dev</p>
             </div>
         </div>
     </div>

@@ -1,6 +1,7 @@
 .profile {
     margin: 15px;
     margin-bottom: 30px;
+    padding-top: 20px;
 }
 .profile-title {
     display: flex;
@@ -10,7 +11,9 @@
 .profile-title h1 {
     font-size: 25px;
     margin-bottom: 5px;
+    text-transform: uppercase;
 }
-.profile-text {
-    font-size: 15px;
+.profile-text p {
+    font-size: 18px;
+    margin-right: 20px;
 }
