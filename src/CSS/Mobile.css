@@ -1,0 +1,28 @@
+.mobile-info {
+    margin: 15px;
+}
+.mobile-img {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10%;
+    background-color: rgb(207, 200, 191);
+    border-radius: 20px;
+}
+.mobile-img img {
+    width: 30%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transform: transform 0.3s ease;
+}
+.mobile-img img:hover {
+    transform: scale(2.2) translate(50%, 50%);
+}
+.mobile-img h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: none;
+    text-shadow: 2px 2px 4px #000000;
+}

@@ -1,0 +1,48 @@
+.certifications {
+    margin: 50px 50px 30px;
+}
+.certifications-title {
+    position: relative;
+}
+.certifications-title input {
+    background-color: rgb(207, 200, 191);
+    width: 85%;
+    float: right;
+    height: 36px;
+    border: none;
+    margin-bottom: 15px;
+    pointer-events: none;
+}
+.certifications-title h1 {
+    position: absolute;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.certifications-text {
+    padding-top: 42px;
+    margin: 5px 15px 10px;
+}
+.certifications-text p {
+    font-size: 15px;
+}
+.cer-list {
+    display: flex;
+    align-items: baseline;
+    margin: 10px 0;
+}
+.cer-list-icon {
+    font-size: 5px;
+    padding-bottom: 2.5px;
+}
+
+@media (max-width: 768px) {
+    .certifications-title input {
+        background-color: rgb(207, 200, 191);
+        width: 93%;
+        float: right;
+        height: 36px;
+        border: none;
+        margin-bottom: 15px;
+        pointer-events: none;
+    }
+}

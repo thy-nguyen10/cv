@@ -1,0 +1,26 @@
+.skills {
+    margin: 15px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.skills-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.skills-title h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.skills-technical {
+    margin: 5px 15px 10px;
+}
+.skills-list {
+    display: flex;
+    align-items: first baseline;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.skills-list p {
+    font-size: 18px;
+}

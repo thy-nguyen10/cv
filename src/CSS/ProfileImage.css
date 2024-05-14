@@ -1,0 +1,26 @@
+.profile-image {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(207, 200, 191);
+    padding: 10px;
+}
+.profile-image-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image-img img {
+    width: 100%;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.profile-image-profile h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.profile-image-profile p {
+    font-size: 13px;
+}
+

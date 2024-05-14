@@ -1,0 +1,17 @@
+.soft-skills {
+    margin: 15px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.soft-skills-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.soft-skills-title h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.soft-skills-list {
+    margin: 5px 15px 10px;
+}

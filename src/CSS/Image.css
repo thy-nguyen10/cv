@@ -1,0 +1,15 @@
+.image {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.image-content img {
+    width: 70%;
+    /* max-height: 50%;
+    overflow: hidden;
+    background-image: url(../Assets/anh1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left; */
+    margin: -30% 0% 0% 15%;
+}

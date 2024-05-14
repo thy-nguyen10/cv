@@ -1,0 +1,15 @@
+.info .info-main {
+    margin: 40px 50px;
+}
+.info-coloritem {
+    background-color: rgb(207, 200, 191);
+    padding: 5px;
+    width: 17px;
+    font-size: 18px;
+}
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 1px;
+}
